@@ -1,0 +1,10 @@
+.jshintrc
+.DS_Store
+Thumbs.db
+npm-debug.log
+bundle.js
+*.swp
+*.~
+*.map
+node_modules/
+builds/

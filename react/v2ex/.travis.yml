@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4"
+  - "5"
+script:
+  - npm run lint
+  - npm run build
+addons:
+    code_climate:
+        repo_token: b98ddc113b0f491040d9629e86d165a00d77d027a59175d317036aa5b65229ac
